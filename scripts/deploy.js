@@ -6,7 +6,7 @@ const tokens = (n) => {
 
 async function main() {
   const [deployer] = await ethers.getSigners();
-  console.log(`Deploying contracts with ${deployer.address} on Goerli testnet`);
+  console.log(`Deploying contracts with ${deployer.address} on Sepolia testnet`);
 
   const RealEstate = await ethers.getContractFactory("RealEstate");
   const realEstate = await RealEstate.deploy();
