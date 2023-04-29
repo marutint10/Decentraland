@@ -1,4 +1,4 @@
-# Decentraland a real estate app
+# Decentraland a Real Estate NFT DApp
 
 ## Technology Stack & Tools
 
@@ -24,14 +24,11 @@
 
 `$ npx hardhat test`
 
-### 4. Start Hardhat node
-
-`$ npx hardhat node`
+### 4. Set up dotenv
 
 ### 5. Run deployment script
 
-In a separate terminal execute:
-`$ npx hardhat run ./scripts/deploy.js --network localhost`
+`$ npx hardhat run ./scripts/deploy.js --network sepolia`
 
 ### 7. Start frontend
 
